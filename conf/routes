@@ -1,0 +1,17 @@
+# driver ( chauffeur )
+GET     /position                   controllers.DriverService.position()
+PUT     /position                   controllers.DriverService.position()
+POST    /position                   controllers.DriverService.position()
+
+POST    /authenticate               controllers.Auth.authenticate
+GET     /authenticate               controllers.Auth.authenticate
+GET     /logout                     controllers.Auth.logout
+
+
+
+OPTIONS /*path                      controllers.HTTP_Options.httpOptions(path)
+
+GET /                               controllers.WrapMapPageWithAuth.show()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

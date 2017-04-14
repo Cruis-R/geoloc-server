@@ -1,0 +1,9 @@
+{
+"@context": "http://deductions.github.io/drivers.context.jsonld",
+"@id": "mailto:jeanluc.alberty@gmail.com" ,
+"@type": "http://deductions.github.io/drivers.owl.ttl#Driver",
+"name": "Jean-Luc Alberty",
+"lat": 48.805300 ,
+"long": 2.1400
+}
+
